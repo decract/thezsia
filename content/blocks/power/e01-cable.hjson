@@ -1,0 +1,24 @@
+type: ArmoredConveyor
+name: Cable
+description: Transfers power between blocks.
+
+conductivePower: true
+health: 40
+hasPower: true
+outputsPower: true
+junctionReplacement: imaginary-junction
+bridgeReplacement: imaginary-bridge
+liquidPressure: 0
+liquidCapacity: 0
+consumes: {
+  powerBuffered: 3
+} 
+requirements: [
+  k01-basalt/2
+]
+category: power
+research: e09-lava-generator
+acceptsItems: false
+instantTransfer: false
+solid: false
+researchCostMultiplier: 0.5

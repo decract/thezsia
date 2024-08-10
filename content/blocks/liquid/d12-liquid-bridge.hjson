@@ -1,0 +1,14 @@
+type: LiquidBridge
+
+name: Liquid Bridge
+description: Transports liquids over terrain or buildings.
+size: 1
+category: liquid
+requirements: [
+  k01-basalt/10
+]
+
+range: 3
+arrowSpacing: 5
+
+research: d05-basalt-pipe
