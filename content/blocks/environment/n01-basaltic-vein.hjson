@@ -1,7 +1,0 @@
-type: OverlayFloor
-
-name: Basaltic Vein
-description: A pack of exposed basalt. Can be mined.
-
-itemDrop: k01-basalt
-wallOre: true
